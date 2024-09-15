@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <style>
+
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse;  */
+            /* flex-direction: column-reverse; */
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse;  */
+            /* height: 500px; */
+            /* justify-content: center; */
+               justify-content: start;
+            /* justify-content: end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */ 
+            /* justify-content: space-evenly; */
+            /* flex-direction: column; */
+            height: 800px;
+            /* justify-content: space-between;  */ 
+            /* align-items: center; */
+            align-items: start;
+            /* align-items: stretch; */
+            align-content: center;
+        }
+        .box{
+            /* height: 200px;
+            width: 200px; */
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{
+            background-color: aqua;
+            /* order: 500; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 1; */
+        }
+        #box2{
+            background-color: blue;
+            /* flex-grow: 1; */
+        }
+        #box3{
+            background-color: orange;
+            /* flex-grow: 1; */
+        }
+        #box4{
+            background-color: brown;
+            /* order: -1; */
+            /* flex-grow: 1; */
+            /* flex-basis: 400px; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+</body>
+</html>

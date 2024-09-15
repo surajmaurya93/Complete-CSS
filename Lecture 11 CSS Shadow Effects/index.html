@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows In CSS.</title>
+    <style>
+        /* :root {
+            --primary-color: orangered;
+            custom-width: 330px;
+        } */
+
+        .container {
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: aquamarine;
+            width: 330px;
+            height: 330px;
+            border: 1px solid brown;
+            margin: 5px;
+            padding: 5px;
+            overflow: auto;
+
+            /* box-shadow: 10px 15px brown; */
+            /* box-shadow: 10px 15px 30px var(--primary-color); */
+            /* box-shadow: 10px 15px 5px 10px rgb(58, 255, 255); */
+            /* box-shadow: inset 10px 15px brown; */
+            /* box-shadow: 10px 15px red 15px 8px green; */
+        }
+
+        #head1 {
+            text-shadow: 2px 3px 2px yellow;
+            /* text-shadow: blue 12px 13px 2px; */
+            /* text-shadow: white 12px 13px; */
+            /* text-shadow: 12px 13px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <img src="Logo.avif" alt="" width="180px">
+            <h1 id="head1">Welcome To CodeHelp</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa, quaerat est voluptate voluptas
+                adipisci, porro, mollitia nihil incidunt ullam vero labore deserunt obcaecati. Sint.</p>
+        </div>
+    </div>
+</body>
+
+</html>

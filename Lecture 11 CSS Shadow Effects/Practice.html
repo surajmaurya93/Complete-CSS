@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise For Multiple Shadows.</title>
+    <style>
+        .container {
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: aquamarine;
+            width: 330px;
+            height: 330px;
+            border: 1px solid brown;
+            margin: 5px;
+            padding: 5px;
+            overflow: auto;
+        }
+/* this is the multiple shadow  */
+        #head1 {
+            /* text-shadow: 2px 3px 2px yellow; */
+            text-shadow: 2px 2px 5px blue ,4px 4px 10px red, 4px 4px 10px yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <img src="Logo.avif" alt="" width="180px">
+            <h1 id="head1">Welcome To CodeHelp</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa, quaerat est voluptate voluptas
+                adipisci, porro, mollitia nihil incidunt ullam vero labore deserunt obcaecati. Sint.</p>
+        </div>
+    </div>
+</body>
+
+</html>
