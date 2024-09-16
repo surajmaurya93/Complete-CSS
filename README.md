@@ -1,2 +1,2 @@
 # Complete-CSS-Course
-I Complete Full CSS Course And I Will Share My Practice Notes Here.
+CSS Diaries 📖 is a collection of my daily explorations and notes on CSS. Here, I document my learning journey, and insights.
